@@ -20,7 +20,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                        <a class="nav-link active" aria-current="page" href="../view/index.php">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -39,18 +39,17 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Jogos
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Cadastrar</a></li>
+                            <li><a class="dropdown-item" href="cadJogo.php">Cadastrar</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Pesquisar por Gênero</a></li>
-                            <li><a class="dropdown-item" href="#">Pesquisar por Código</a></li>
-                            <li><a class="dropdown-item" href="#">Pesquisar por Nome</a></li>
-                            <li><a class="dropdown-item" href="#">Pesquisar por Plataforma</a></li>
+                            <li><a class="dropdown-item" href="../view/visuJogoGenero.php">Pesquisar por Gênero</a></li>
+                            <li><a class="dropdown-item" href="../view/visuJogoCodigo.php">Pesquisar por Código</a></li>
+                            <li><a class="dropdown-item" href="../view/visuJogoNome.php">Pesquisar por Nome</a></li>
                         </ul>
                     </li>
                 </ul>

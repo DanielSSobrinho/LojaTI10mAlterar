@@ -31,7 +31,7 @@ include_once("../model/usuarioModel.php");
   </thead>
   <tbody>
 <?php
-$nomeusu = isset($_POST["nomeUsu"])? $_POST["nomeUsu"] : ""; 
+$nomeusu = isset($_POST["nomeUsu"])? $_POST["nomeUsu"] :" "; 
 
 $dado = visuUsuarioNome($conn,$nomeusu);
 

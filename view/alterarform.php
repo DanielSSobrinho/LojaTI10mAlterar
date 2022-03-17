@@ -3,7 +3,7 @@ include_once("../view/header.php");
 include_once("../model/conexao.php");
 include_once("../model/usuarioModel.php");
 
-extract($_REQUEST,EXTR_OVERWRITE);
+extract($_REQUEST,EXTR_OVERWRITE); 
 
 $informa = visuUsuarioCodigo($conn,$idusu);
 
@@ -63,7 +63,6 @@ $informa = visuUsuarioCodigo($conn,$idusu);
     <input type="text" name="compleusu" value="<?=$informa["compleusu"]?>" class="form-control" id="inputComple">
   </div>
  
-
 
   <div class="col-12">
     <button type="submit" class="btn btn-primary">Alterar</button>
